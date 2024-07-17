@@ -1,5 +1,6 @@
 import React from 'react';
 import Student from './Student';
+import './App.css';
 
 const Students = () => {
   const students = [
@@ -10,9 +11,9 @@ const Students = () => {
     { name: "Ate", department: "Arts", finalGrade: Math.floor(Math.random() * 41) + 60, status: "Pass" },
     { name: "Megas", department: "Commerce", finalGrade: Math.floor(Math.random() * 41) + 60, status: "Pass" },
     { name: "Pisot", department: "Science", finalGrade: Math.floor(Math.random() * 41) + 60, status: "Pass" },
-    { name: "Aljun", department: "Arts", finalGrade: Math.floor(Math.random() * 41) + 60, status: "Pass" },
-    { name: "Jaime", department: "Commerce", finalGrade: null, status: "Fail" },
-    { name: "Jhonry", department: "Science", finalGrade: null, status: "Fail" }
+    { name: "Welin", department: "Arts", finalGrade: Math.floor(Math.random() * 41) + 60, status: "Pass" },
+    { name: "Jaime", department: "Commerce", finalGrade: 59, status: "Fail" },
+    { name: "Jhonry", department: "Science", finalGrade: 40, status: "Fail" }
   ];
 
   return (

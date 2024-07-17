@@ -1,4 +1,4 @@
-// src/Student.js
+import './App.css';
 import React from 'react';
 
 const Student = ({ index, student }) => {
